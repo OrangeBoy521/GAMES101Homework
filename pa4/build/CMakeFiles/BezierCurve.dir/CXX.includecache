@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/sf_GAMES101/pa4/main.cpp
+/media/sf_games101/pa4/main.cpp
 chrono
 -
 iostream

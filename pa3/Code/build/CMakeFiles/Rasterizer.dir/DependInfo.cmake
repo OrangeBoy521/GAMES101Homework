@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/sf_GAMES101/pa3/Code/Texture.cpp" "/media/sf_GAMES101/pa3/Code/build/CMakeFiles/Rasterizer.dir/Texture.cpp.o"
-  "/media/sf_GAMES101/pa3/Code/Triangle.cpp" "/media/sf_GAMES101/pa3/Code/build/CMakeFiles/Rasterizer.dir/Triangle.cpp.o"
-  "/media/sf_GAMES101/pa3/Code/main.cpp" "/media/sf_GAMES101/pa3/Code/build/CMakeFiles/Rasterizer.dir/main.cpp.o"
-  "/media/sf_GAMES101/pa3/Code/rasterizer.cpp" "/media/sf_GAMES101/pa3/Code/build/CMakeFiles/Rasterizer.dir/rasterizer.cpp.o"
+  "/media/sf_games101/pa3/code/Texture.cpp" "/media/sf_games101/pa3/code/build/CMakeFiles/Rasterizer.dir/Texture.cpp.o"
+  "/media/sf_games101/pa3/code/Triangle.cpp" "/media/sf_games101/pa3/code/build/CMakeFiles/Rasterizer.dir/Triangle.cpp.o"
+  "/media/sf_games101/pa3/code/main.cpp" "/media/sf_games101/pa3/code/build/CMakeFiles/Rasterizer.dir/main.cpp.o"
+  "/media/sf_games101/pa3/code/rasterizer.cpp" "/media/sf_games101/pa3/code/build/CMakeFiles/Rasterizer.dir/rasterizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

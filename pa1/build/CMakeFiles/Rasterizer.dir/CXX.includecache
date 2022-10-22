@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/media/sf_GAMES101/pa1/Triangle.cpp
+/media/sf_games101/pa1/Triangle.cpp
 Triangle.hpp
-/media/sf_GAMES101/pa1/Triangle.hpp
+/media/sf_games101/pa1/Triangle.hpp
 algorithm
 -
 array
@@ -16,15 +16,15 @@ array
 stdexcept
 -
 
-/media/sf_GAMES101/pa1/Triangle.hpp
+/media/sf_games101/pa1/Triangle.hpp
 eigen3/Eigen/Eigen
 -
 
-/media/sf_GAMES101/pa1/main.cpp
+/media/sf_games101/pa1/main.cpp
 Triangle.hpp
-/media/sf_GAMES101/pa1/Triangle.hpp
+/media/sf_games101/pa1/Triangle.hpp
 rasterizer.hpp
-/media/sf_GAMES101/pa1/rasterizer.hpp
+/media/sf_games101/pa1/rasterizer.hpp
 eigen3/Eigen/Eigen
 -
 iostream
@@ -32,11 +32,11 @@ iostream
 opencv2/opencv.hpp
 -
 
-/media/sf_GAMES101/pa1/rasterizer.cpp
+/media/sf_games101/pa1/rasterizer.cpp
 algorithm
 -
 rasterizer.hpp
-/media/sf_GAMES101/pa1/rasterizer.hpp
+/media/sf_games101/pa1/rasterizer.hpp
 opencv2/opencv.hpp
 -
 math.h
@@ -44,9 +44,9 @@ math.h
 stdexcept
 -
 
-/media/sf_GAMES101/pa1/rasterizer.hpp
+/media/sf_games101/pa1/rasterizer.hpp
 Triangle.hpp
-/media/sf_GAMES101/pa1/Triangle.hpp
+/media/sf_games101/pa1/Triangle.hpp
 algorithm
 -
 eigen3/Eigen/Eigen

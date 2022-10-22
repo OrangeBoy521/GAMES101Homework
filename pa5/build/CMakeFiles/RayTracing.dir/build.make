@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/sf_GAMES101/pa5
+CMAKE_SOURCE_DIR = /media/sf_games101/pa5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/sf_GAMES101/pa5/build
+CMAKE_BINARY_DIR = /media/sf_games101/pa5/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RayTracing.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/RayTracing.dir/flags.make
 
 CMakeFiles/RayTracing.dir/main.cpp.o: CMakeFiles/RayTracing.dir/flags.make
 CMakeFiles/RayTracing.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_GAMES101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing.dir/main.cpp.o -c /media/sf_GAMES101/pa5/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_games101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing.dir/main.cpp.o -c /media/sf_games101/pa5/main.cpp
 
 CMakeFiles/RayTracing.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_GAMES101/pa5/main.cpp > CMakeFiles/RayTracing.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_games101/pa5/main.cpp > CMakeFiles/RayTracing.dir/main.cpp.i
 
 CMakeFiles/RayTracing.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_GAMES101/pa5/main.cpp -o CMakeFiles/RayTracing.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_games101/pa5/main.cpp -o CMakeFiles/RayTracing.dir/main.cpp.s
 
 CMakeFiles/RayTracing.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/RayTracing.dir/main.cpp.o.provides.build: CMakeFiles/RayTracing.dir/m
 
 CMakeFiles/RayTracing.dir/Scene.cpp.o: CMakeFiles/RayTracing.dir/flags.make
 CMakeFiles/RayTracing.dir/Scene.cpp.o: ../Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_GAMES101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing.dir/Scene.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing.dir/Scene.cpp.o -c /media/sf_GAMES101/pa5/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_games101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing.dir/Scene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing.dir/Scene.cpp.o -c /media/sf_games101/pa5/Scene.cpp
 
 CMakeFiles/RayTracing.dir/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/Scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_GAMES101/pa5/Scene.cpp > CMakeFiles/RayTracing.dir/Scene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_games101/pa5/Scene.cpp > CMakeFiles/RayTracing.dir/Scene.cpp.i
 
 CMakeFiles/RayTracing.dir/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/Scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_GAMES101/pa5/Scene.cpp -o CMakeFiles/RayTracing.dir/Scene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_games101/pa5/Scene.cpp -o CMakeFiles/RayTracing.dir/Scene.cpp.s
 
 CMakeFiles/RayTracing.dir/Scene.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/RayTracing.dir/Scene.cpp.o.provides.build: CMakeFiles/RayTracing.dir/
 
 CMakeFiles/RayTracing.dir/Renderer.cpp.o: CMakeFiles/RayTracing.dir/flags.make
 CMakeFiles/RayTracing.dir/Renderer.cpp.o: ../Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_GAMES101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayTracing.dir/Renderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing.dir/Renderer.cpp.o -c /media/sf_GAMES101/pa5/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_games101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayTracing.dir/Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing.dir/Renderer.cpp.o -c /media/sf_games101/pa5/Renderer.cpp
 
 CMakeFiles/RayTracing.dir/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/Renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_GAMES101/pa5/Renderer.cpp > CMakeFiles/RayTracing.dir/Renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_games101/pa5/Renderer.cpp > CMakeFiles/RayTracing.dir/Renderer.cpp.i
 
 CMakeFiles/RayTracing.dir/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/Renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_GAMES101/pa5/Renderer.cpp -o CMakeFiles/RayTracing.dir/Renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_games101/pa5/Renderer.cpp -o CMakeFiles/RayTracing.dir/Renderer.cpp.s
 
 CMakeFiles/RayTracing.dir/Renderer.cpp.o.requires:
 
@@ -143,7 +143,7 @@ RayTracing: CMakeFiles/RayTracing.dir/Scene.cpp.o
 RayTracing: CMakeFiles/RayTracing.dir/Renderer.cpp.o
 RayTracing: CMakeFiles/RayTracing.dir/build.make
 RayTracing: CMakeFiles/RayTracing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/sf_GAMES101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RayTracing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/sf_games101/pa5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RayTracing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RayTracing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/RayTracing.dir/clean:
 .PHONY : CMakeFiles/RayTracing.dir/clean
 
 CMakeFiles/RayTracing.dir/depend:
-	cd /media/sf_GAMES101/pa5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/sf_GAMES101/pa5 /media/sf_GAMES101/pa5 /media/sf_GAMES101/pa5/build /media/sf_GAMES101/pa5/build /media/sf_GAMES101/pa5/build/CMakeFiles/RayTracing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/sf_games101/pa5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/sf_games101/pa5 /media/sf_games101/pa5 /media/sf_games101/pa5/build /media/sf_games101/pa5/build /media/sf_games101/pa5/build/CMakeFiles/RayTracing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RayTracing.dir/depend
 

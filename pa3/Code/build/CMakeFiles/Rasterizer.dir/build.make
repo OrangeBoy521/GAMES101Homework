@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/sf_GAMES101/pa3/Code
+CMAKE_SOURCE_DIR = /media/sf_games101/pa3/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/sf_GAMES101/pa3/Code/build
+CMAKE_BINARY_DIR = /media/sf_games101/pa3/code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Rasterizer.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Rasterizer.dir/flags.make
 
 CMakeFiles/Rasterizer.dir/main.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_GAMES101/pa3/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rasterizer.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/main.cpp.o -c /media/sf_GAMES101/pa3/Code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_games101/pa3/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rasterizer.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/main.cpp.o -c /media/sf_games101/pa3/code/main.cpp
 
 CMakeFiles/Rasterizer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_GAMES101/pa3/Code/main.cpp > CMakeFiles/Rasterizer.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_games101/pa3/code/main.cpp > CMakeFiles/Rasterizer.dir/main.cpp.i
 
 CMakeFiles/Rasterizer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_GAMES101/pa3/Code/main.cpp -o CMakeFiles/Rasterizer.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_games101/pa3/code/main.cpp -o CMakeFiles/Rasterizer.dir/main.cpp.s
 
 CMakeFiles/Rasterizer.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Rasterizer.dir/main.cpp.o.provides.build: CMakeFiles/Rasterizer.dir/m
 
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: ../rasterizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_GAMES101/pa3/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rasterizer.dir/rasterizer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.o -c /media/sf_GAMES101/pa3/Code/rasterizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_games101/pa3/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rasterizer.dir/rasterizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.o -c /media/sf_games101/pa3/code/rasterizer.cpp
 
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/rasterizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_GAMES101/pa3/Code/rasterizer.cpp > CMakeFiles/Rasterizer.dir/rasterizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_games101/pa3/code/rasterizer.cpp > CMakeFiles/Rasterizer.dir/rasterizer.cpp.i
 
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/rasterizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_GAMES101/pa3/Code/rasterizer.cpp -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_games101/pa3/code/rasterizer.cpp -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.s
 
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Rasterizer.dir/rasterizer.cpp.o.provides.build: CMakeFiles/Rasterizer
 
 CMakeFiles/Rasterizer.dir/Triangle.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/Triangle.cpp.o: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_GAMES101/pa3/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rasterizer.dir/Triangle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Triangle.cpp.o -c /media/sf_GAMES101/pa3/Code/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_games101/pa3/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rasterizer.dir/Triangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Triangle.cpp.o -c /media/sf_games101/pa3/code/Triangle.cpp
 
 CMakeFiles/Rasterizer.dir/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/Triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_GAMES101/pa3/Code/Triangle.cpp > CMakeFiles/Rasterizer.dir/Triangle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_games101/pa3/code/Triangle.cpp > CMakeFiles/Rasterizer.dir/Triangle.cpp.i
 
 CMakeFiles/Rasterizer.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/Triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_GAMES101/pa3/Code/Triangle.cpp -o CMakeFiles/Rasterizer.dir/Triangle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_games101/pa3/code/Triangle.cpp -o CMakeFiles/Rasterizer.dir/Triangle.cpp.s
 
 CMakeFiles/Rasterizer.dir/Triangle.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Rasterizer.dir/Triangle.cpp.o.provides.build: CMakeFiles/Rasterizer.d
 
 CMakeFiles/Rasterizer.dir/Texture.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/Texture.cpp.o: ../Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_GAMES101/pa3/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rasterizer.dir/Texture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Texture.cpp.o -c /media/sf_GAMES101/pa3/Code/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_games101/pa3/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rasterizer.dir/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Texture.cpp.o -c /media/sf_games101/pa3/code/Texture.cpp
 
 CMakeFiles/Rasterizer.dir/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_GAMES101/pa3/Code/Texture.cpp > CMakeFiles/Rasterizer.dir/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_games101/pa3/code/Texture.cpp > CMakeFiles/Rasterizer.dir/Texture.cpp.i
 
 CMakeFiles/Rasterizer.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_GAMES101/pa3/Code/Texture.cpp -o CMakeFiles/Rasterizer.dir/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_games101/pa3/code/Texture.cpp -o CMakeFiles/Rasterizer.dir/Texture.cpp.s
 
 CMakeFiles/Rasterizer.dir/Texture.cpp.o.requires:
 
@@ -210,7 +210,7 @@ Rasterizer: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 Rasterizer: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 Rasterizer: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 Rasterizer: CMakeFiles/Rasterizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/sf_GAMES101/pa3/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Rasterizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/sf_games101/pa3/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Rasterizer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rasterizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -230,6 +230,6 @@ CMakeFiles/Rasterizer.dir/clean:
 .PHONY : CMakeFiles/Rasterizer.dir/clean
 
 CMakeFiles/Rasterizer.dir/depend:
-	cd /media/sf_GAMES101/pa3/Code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/sf_GAMES101/pa3/Code /media/sf_GAMES101/pa3/Code /media/sf_GAMES101/pa3/Code/build /media/sf_GAMES101/pa3/Code/build /media/sf_GAMES101/pa3/Code/build/CMakeFiles/Rasterizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/sf_games101/pa3/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/sf_games101/pa3/code /media/sf_games101/pa3/code /media/sf_games101/pa3/code/build /media/sf_games101/pa3/code/build /media/sf_games101/pa3/code/build/CMakeFiles/Rasterizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Rasterizer.dir/depend
 

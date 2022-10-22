@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/sf_GAMES101/pa3/Code/OBJ_Loader.h
+/media/sf_games101/pa3/code/OBJ_Loader.h
 iostream
 -
 vector
@@ -18,67 +18,67 @@ fstream
 math.h
 -
 
-/media/sf_GAMES101/pa3/Code/Shader.hpp
+/media/sf_games101/pa3/code/Shader.hpp
 eigen3/Eigen/Eigen
 -
 Texture.hpp
-/media/sf_GAMES101/pa3/Code/Texture.hpp
+/media/sf_games101/pa3/code/Texture.hpp
 
-/media/sf_GAMES101/pa3/Code/Texture.cpp
+/media/sf_games101/pa3/code/Texture.cpp
 
-/media/sf_GAMES101/pa3/Code/Texture.hpp
+/media/sf_games101/pa3/code/Texture.hpp
 global.hpp
-/media/sf_GAMES101/pa3/Code/global.hpp
+/media/sf_games101/pa3/code/global.hpp
 eigen3/Eigen/Eigen
 -
 opencv2/opencv.hpp
 -
 
-/media/sf_GAMES101/pa3/Code/Triangle.cpp
+/media/sf_games101/pa3/code/Triangle.cpp
 Triangle.hpp
-/media/sf_GAMES101/pa3/Code/Triangle.hpp
+/media/sf_games101/pa3/code/Triangle.hpp
 algorithm
 -
 array
 -
 
-/media/sf_GAMES101/pa3/Code/Triangle.hpp
+/media/sf_games101/pa3/code/Triangle.hpp
 eigen3/Eigen/Eigen
 -
 Texture.hpp
-/media/sf_GAMES101/pa3/Code/Texture.hpp
+/media/sf_games101/pa3/code/Texture.hpp
 
-/media/sf_GAMES101/pa3/Code/global.hpp
+/media/sf_games101/pa3/code/global.hpp
 
-/media/sf_GAMES101/pa3/Code/main.cpp
+/media/sf_games101/pa3/code/main.cpp
 iostream
 -
 opencv2/opencv.hpp
 -
 global.hpp
-/media/sf_GAMES101/pa3/Code/global.hpp
+/media/sf_games101/pa3/code/global.hpp
 rasterizer.hpp
-/media/sf_GAMES101/pa3/Code/rasterizer.hpp
+/media/sf_games101/pa3/code/rasterizer.hpp
 Triangle.hpp
-/media/sf_GAMES101/pa3/Code/Triangle.hpp
+/media/sf_games101/pa3/code/Triangle.hpp
 Shader.hpp
-/media/sf_GAMES101/pa3/Code/Shader.hpp
+/media/sf_games101/pa3/code/Shader.hpp
 Texture.hpp
-/media/sf_GAMES101/pa3/Code/Texture.hpp
+/media/sf_games101/pa3/code/Texture.hpp
 OBJ_Loader.h
-/media/sf_GAMES101/pa3/Code/OBJ_Loader.h
+/media/sf_games101/pa3/code/OBJ_Loader.h
 
-/media/sf_GAMES101/pa3/Code/rasterizer.cpp
+/media/sf_games101/pa3/code/rasterizer.cpp
 algorithm
 -
 rasterizer.hpp
-/media/sf_GAMES101/pa3/Code/rasterizer.hpp
+/media/sf_games101/pa3/code/rasterizer.hpp
 opencv2/opencv.hpp
 -
 math.h
 -
 
-/media/sf_GAMES101/pa3/Code/rasterizer.hpp
+/media/sf_games101/pa3/code/rasterizer.hpp
 eigen3/Eigen/Eigen
 -
 optional
@@ -86,11 +86,11 @@ optional
 algorithm
 -
 global.hpp
-/media/sf_GAMES101/pa3/Code/global.hpp
+/media/sf_games101/pa3/code/global.hpp
 Shader.hpp
-/media/sf_GAMES101/pa3/Code/Shader.hpp
+/media/sf_games101/pa3/code/Shader.hpp
 Triangle.hpp
-/media/sf_GAMES101/pa3/Code/Triangle.hpp
+/media/sf_games101/pa3/code/Triangle.hpp
 
 /usr/local/include/eigen3/Eigen/Cholesky
 Core

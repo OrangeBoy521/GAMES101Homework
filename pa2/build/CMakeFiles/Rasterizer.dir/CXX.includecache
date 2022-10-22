@@ -6,53 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/media/sf_GAMES101/pa2/Triangle.cpp
+/media/sf_games101/pa2/Triangle.cpp
 Triangle.hpp
-/media/sf_GAMES101/pa2/Triangle.hpp
+/media/sf_games101/pa2/Triangle.hpp
 algorithm
 -
 array
 -
 
-/media/sf_GAMES101/pa2/Triangle.hpp
+/media/sf_games101/pa2/Triangle.hpp
 eigen3/Eigen/Eigen
 -
 
-/media/sf_GAMES101/pa2/global.hpp
+/media/sf_games101/pa2/global.hpp
 
-/media/sf_GAMES101/pa2/main.cpp
+/media/sf_games101/pa2/main.cpp
 iostream
 -
 opencv2/opencv.hpp
 -
 rasterizer.hpp
-/media/sf_GAMES101/pa2/rasterizer.hpp
+/media/sf_games101/pa2/rasterizer.hpp
 global.hpp
-/media/sf_GAMES101/pa2/global.hpp
+/media/sf_games101/pa2/global.hpp
 Triangle.hpp
-/media/sf_GAMES101/pa2/Triangle.hpp
+/media/sf_games101/pa2/Triangle.hpp
 
-/media/sf_GAMES101/pa2/rasterizer.cpp
+/media/sf_games101/pa2/rasterizer.cpp
 algorithm
 -
 vector
 -
 rasterizer.hpp
-/media/sf_GAMES101/pa2/rasterizer.hpp
+/media/sf_games101/pa2/rasterizer.hpp
 opencv2/opencv.hpp
 -
 math.h
 -
 
-/media/sf_GAMES101/pa2/rasterizer.hpp
+/media/sf_games101/pa2/rasterizer.hpp
 eigen3/Eigen/Eigen
 -
 algorithm
 -
 global.hpp
-/media/sf_GAMES101/pa2/global.hpp
+/media/sf_games101/pa2/global.hpp
 Triangle.hpp
-/media/sf_GAMES101/pa2/Triangle.hpp
+/media/sf_games101/pa2/Triangle.hpp
 
 /usr/local/include/eigen3/Eigen/Cholesky
 Core

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/media/sf_GAMES101/pa3/Code/./include -isystem /usr/include/opencv 
+CXX_INCLUDES = -I/usr/local/include -I/media/sf_games101/pa3/code/./include -isystem /usr/include/opencv 
 
