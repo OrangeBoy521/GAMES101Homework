@@ -7,13 +7,13 @@
 #include <opencv2/opencv.hpp>
 #include <math.h>
 #include <stdexcept>
+#include <iostream>
 
 
 rst::pos_buf_id rst::rasterizer::load_positions(const std::vector<Eigen::Vector3f> &positions)
 {
     auto id = get_next_id();
     pos_buf.emplace(id, positions);
-
     return {id};
 }
 
@@ -21,7 +21,6 @@ rst::ind_buf_id rst::rasterizer::load_indices(const std::vector<Eigen::Vector3i>
 {
     auto id = get_next_id();
     ind_buf.emplace(id, indices);
-
     return {id};
 }
 
@@ -140,7 +139,7 @@ void rst::rasterizer::draw(rst::pos_buf_id pos_buffer, rst::ind_buf_id ind_buffe
     }
     auto& buf = pos_buf[pos_buffer.pos_id];
     auto& ind = ind_buf[ind_buffer.ind_id];
-
+    
     float f1 = (100 - 0.1) / 2.0;
     float f2 = (100 + 0.1) / 2.0;
 
@@ -169,8 +168,8 @@ void rst::rasterizer::draw(rst::pos_buf_id pos_buffer, rst::ind_buf_id ind_buffe
         for (int i = 0; i < 3; ++i)
         {
             t.setVertex(i, v[i].head<3>());
-            t.setVertex(i, v[i].head<3>());
-            t.setVertex(i, v[i].head<3>());
+            // t.setVertex(i, v[i].head<3>());
+            // t.setVertex(i, v[i].head<3>());
         }
 
         t.setColor(0, 255.0,  0.0,  0.0);

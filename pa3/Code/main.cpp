@@ -219,11 +219,11 @@ Eigen::Vector3f displacement_fragment_shader(const fragment_shader_payload& payl
     // Vector ln = (-dU, -dV, 1)
     // Position p = p + kn * n * h(u,v)
     // Normal n = normalize(TBN * ln)
-      float x = normal.x();
+    float x = normal.x();
     float y = normal.y();
     float z = normal.z();
 
-    Eigen:;Vector3f t{x*y/std::sqrt(x*x+z*z),std::sqrt(x*x+z*z),z*y/std::sqrt(x*x+z*z)};
+    Eigen::Vector3f t{x*y/std::sqrt(x*x+z*z),std::sqrt(x*x+z*z),z*y/std::sqrt(x*x+z*z)};
     Eigen::Vector3f b = normal.cross(t);
     Eigen::Matrix3f TBN;
     TBN << t.x(),b.x(),normal.x(),
@@ -338,7 +338,7 @@ int main(int argc, const char** argv)
 
     // Load .obj File
     bool loadout = Loader.LoadFile("../models/spot/spot_triangulated_good.obj");
-    for(auto mesh:Loader.LoadedMeshes)
+    for(auto mesh : Loader.LoadedMeshes)
     {
         for(int i=0;i<mesh.Vertices.size();i+=3)
         {

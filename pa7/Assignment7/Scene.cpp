@@ -61,4 +61,50 @@ bool Scene::trace(
 Vector3f Scene::castRay(const Ray &ray, int depth) const
 {
     // TO DO Implement Path Tracing Algorithm here
+    Vector3f L_dir = {0,0,0},L_indir = {0,0,0};
+    Intersection intersection = Scene::intersect(ray);
+
+    if (!intersection.happened)
+    {
+        /* code */
+        return {};
+    }
+
+    if (intersection.m->hasEmission())
+    {
+        /* code */
+        return intersection.m->getEmission();
+    }
+    Intersection lightpos;
+    float lightpdf = 0.0f;
+    sampleLight(lightpos,lightpdf);
+    Vector3f collisionlight =lightpos.coords - intersection.coords;
+    float dis = dotProduct(collisionlight,collisionlight);
+    Vector3f collisionlightdir = collisionlight.normalized();
+    Ray light_to_object_ray(intersection.coords,collisionlightdir);
+    Intersection light_to_anything_ray = Scene::intersect(light_to_object_ray);
+    auto f_r =intersection.m->eval(ray.direction,collisionlightdir,intersection.normal);
+    if (light_to_anything_ray.distance - collisionlight.norm() > -0.005)
+    {
+        /* code */
+        L_dir = lightpos.emit * f_r * dotProduct(collisionlightdir,intersection.normal) * dotProduct(-collisionlightdir,lightpos.normal)/dis/lightpdf;
+
+    }
+    if (get_random_float() > RussianRoulette)
+    {
+        /* code */
+        return L_dir;
+    }
+    Vector3f w0 = intersection.m->sample(ray.direction,intersection.normal).normalized();
+    Ray object_to_object_ray(intersection.coords,w0);
+    Intersection islight = Scene::intersect(object_to_object_ray);
+    if (islight.happened && !islight.m->hasEmission())
+    {
+        /* code */
+        float pdf = intersection.m->pdf(ray.direction,w0,intersection.normal);
+        f_r = intersection.m->eval(ray.direction,w0,intersection.normal);
+        L_indir = castRay(object_to_object_ray,depth+1) * f_r * dotProduct(w0,intersection.normal)/pdf/RussianRoulette;
+    }
+    return L_dir+L_indir;
+    
 }

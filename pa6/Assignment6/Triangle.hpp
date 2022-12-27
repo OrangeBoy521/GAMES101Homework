@@ -177,13 +177,13 @@ public:
 
     Intersection getIntersection(Ray ray)
     {
-        Intersection intersec;
-
+        Intersection inter;
+        //---
         if (bvh) {
-            intersec = bvh->Intersect(ray);
+            inter = bvh->Intersect(ray);
         }
 
-        return intersec;
+        return inter;
     }
 
     Bounds3 bounding_box;
@@ -212,6 +212,8 @@ inline Intersection Triangle::getIntersection(Ray ray)
 {
     Intersection inter;
 
+  // TODO find ray triangle intersection
+
     if (dotProduct(ray.direction, normal) > 0)
         return inter;
     double u, v, t_tmp = 0;
@@ -231,7 +233,7 @@ inline Intersection Triangle::getIntersection(Ray ray)
         return inter;
     t_tmp = dotProduct(e2, qvec) * det_inv;
 
-    // TODO find ray triangle intersection
+  
 
 
 

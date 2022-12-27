@@ -43,6 +43,8 @@ math.h
 -
 stdexcept
 -
+iostream
+-
 
 /media/sf_games101/pa1/rasterizer.hpp
 Triangle.hpp

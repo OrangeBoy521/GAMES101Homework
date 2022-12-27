@@ -469,7 +469,7 @@ namespace objl
             while (std::getline(file, curline))
             {
 #ifdef OBJL_CONSOLE_OUTPUT
-                if ((outputIndicator = ((outputIndicator + 1) % outputEveryNth)) == 1)
+                if ((outputIndicator =  ((outputIndicator + 1) % outputEveryNth) ) == 1)
                 {
                     if (!meshname.empty())
                     {
@@ -483,7 +483,6 @@ namespace objl
                     }
                 }
 #endif
-
                 // Generate a Mesh Object or Prepare for an object to be created
                 if (algorithm::firstToken(curline) == "o" || algorithm::firstToken(curline) == "g" || curline[0] == 'g')
                 {

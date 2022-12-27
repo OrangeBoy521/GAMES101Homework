@@ -30,7 +30,6 @@ rst::col_buf_id rst::rasterizer::load_colors(const std::vector<Eigen::Vector3f> 
 {
     auto id = get_next_id();
     col_buf.emplace(id, cols);
-
     return {id};
 }
 
@@ -92,8 +91,8 @@ void rst::rasterizer::draw(pos_buf_id pos_buffer, ind_buf_id ind_buffer, col_buf
         for (int i = 0; i < 3; ++i)
         {
             t.setVertex(i, v[i].head<3>());
-            t.setVertex(i, v[i].head<3>());
-            t.setVertex(i, v[i].head<3>());
+            // t.setVertex(i, v[i].head<3>());
+            // t.setVertex(i, v[i].head<3>());
         }
 
         auto col_x = col[i[0]];
